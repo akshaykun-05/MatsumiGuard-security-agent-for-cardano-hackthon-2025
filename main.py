@@ -12,7 +12,7 @@ app = FastAPI(
 # Enable CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "https://matsumiguard-security-agent-for-cardano-hackthon-2025.vercel.app"],
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "https://matsumi-guard-security-agent-for-ca.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
